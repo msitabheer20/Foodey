@@ -3,6 +3,7 @@ import React from 'react'
 import Menu from './Menu'
 import CartIcon from './CartIcon';
 import Image from 'next/image';
+import UserLinks from './UserLinks';
 
 const Navbar = () => {
 
@@ -32,12 +33,12 @@ const Navbar = () => {
       </div>
 
       {/* RIGHT LINKS */}
-      <div className='hidden md:flex justify-end gap-4 items-center flex-1'>
+      <div className='hidden md:flex justify-end gap-4 items-center flex-2'>
         <div className='md:absolute top-3 r-2 lg:static flex items-center gap-2 cursor-pointer bg-orange-300 px-1 rounded-md md:text-sm md:py-1'>
           <Image src="/phone.png" alt="" width={20} height={20}/>
-          <span>+91-9087654212</span>
+          <span>+91 1242</span>
         </div>
-        {!user ? (<Link href="/login">Login</Link>):(<Link href="/menu">Orders</Link>)}
+        <UserLinks/>
         <CartIcon/>
       </div>
     </div>
