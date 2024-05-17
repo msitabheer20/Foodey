@@ -1,3 +1,5 @@
+# FOODEY : FULL STACK FOOD RESTAURANT APPLICATION WITH RESPONSIVE UI
+
 ![foody1](https://github.com/msitabheer20/Foodey/assets/143608176/7810b020-6efb-48e2-b4a3-7e4a50dd080b)
 ![foody2](https://github.com/msitabheer20/Foodey/assets/143608176/d338b8d6-a670-495f-bfb0-be6242c48b3e)
 ![foody3](https://github.com/msitabheer20/Foodey/assets/143608176/848cda96-69ee-4d70-91ed-7101bb3d2e63)
